@@ -1,0 +1,137 @@
+@charset "UTF-8";
+@media screen and (max-width:1400px){ 
+	.sen2 .work_area > .list > li {width: calc(25% - 11.25px);}
+}
+
+
+@media screen and (max-width:1280px){ 
+	/*헤더*/
+    .header .gnb_header .container .right_box {right: 0;}
+	.container {padding:0 5px;}
+    /* //헤더*/
+    
+    /*메인*/
+    .sen2 .work_area > .list > li .box .text_area .btn_list li {margin: 0 10px 0 0;}
+    .sen2 .work_area > .list > li .box .text_area .btn_list li .btn {width: 115px;}
+    /* //헤더*/
+
+	
+}
+
+@media screen and (max-width:1080px){
+    /*헤더*/
+	.header .gnb_header {padding: 5px 0;}
+    .header .gnb_menu_box {padding: 20px 0;}
+    .header .gnb_menu_box .left_box .list li .box {font-size: 16px; line-height: 24px;}
+    .header .gnb_menu_box .right_box .img_box {display: none;}
+    .header .gnb_menu_box .right_box .intro_list .list li:first-child {font-size: 16px; line-height: 24px;}
+    .header .gnb_menu_box .right_box .intro_list .list li {font-size: 14px; line-height: 21px;}
+    .header .gnb_header .container .left_box {font-size: 22px; line-height: 33px;}
+    /*//헤더*/
+    
+    /* 메인*/
+    .sen2 {padding: 20px 0;}
+    .sen2 .title_area .title {font-size: 22px; line-height: 33px;}
+    .sen2 .title_area .text {font-size: 16px; line-height: 24px;}
+    .sen2 .work_area {margin: 10px 0 0;}
+    .sen2 .work_area > .list {gap: 10px;}
+	.sen2 .work_area > .list > li {width: calc(33.3333% - 7.5px);}
+    .sen2 .work_area > .list > li .box .text_area {height: 54px;}
+    .sen2 .work_area > .list > li .box:hover .text_area {height: 98px;}
+    .sen2 .work_area > .list > li .box .text_area .text_box .title {font-size: 22px; line-height: 33px;}
+    .sen2 .work_area > .list > li .box .text_area .text_box .orden {font-size: 14px; line-height: 21px;}
+    .sen2 .work_area > .list > li .box .text_area .btn_list {margin: 10px 0 0;}
+    .sen2 .work_area > .list > li .box .text_area .btn_list li {margin: 0 10px 0 0;}
+    .sen2 .work_area > .list > li .box .text_area .btn_list li .btn {width: 104px; font-size: 13px; line-height: 30px;}
+    /* // 메인*/
+    
+    /*서브*/
+    .title_box .inner .title {font-size: 20px; line-height: 30px;}
+    .title_box .menu_list .list li {margin: 0 10px 0 0;}
+    .title_box .menu_list .list li .btn {font-size: 18px; line-height: 27px;}
+    .sub_cont .sen2 {margin: 10px 0 0;}
+    
+    .title_wrap {padding: 45px 0;}
+    .title_wrap .title {font-size: 36px; line-height: 36px;}
+    .title_wrap .title .text {font-size: 36px; line-height: 36px;}
+    
+    .info_list {padding: 30px 0;}
+    .info_list .list li {margin: 10px 0 0;}
+    .info_list .list li .box .tit {width: 150px; font-size: 16px; line-height: 25px;}
+    .info_list .list li .box .txt {font-size: 16px; line-height: 25px;}
+    .info_list .list li .box .txt .tag_list .list li {margin: 0 7px 0 0; font-size: 16px; line-height: 28px;}
+    /* // 서브*/ 
+    
+    
+    .about_top {padding: 40px 0;}
+    .about_top .container .title {font-size: 30px; line-height: 45px;}
+    .about_top .container .text {margin: 20px 0 0; font-size: 15px; line-height: 25px;}
+    
+    .info_list.bg {padding: 40px 0;}
+    .map_box {margin: 30px 0 0;}
+}
+
+@media screen and (max-width:767px){
+    /*헤더*/
+    .header .gnb_menu_box {padding: 10px 0;}
+    /* //헤더*/
+    
+    /*메인*/
+    .sen2 .title_area .title {font-size: 18px; line-height: 27px;}
+    .sen2 .title_area .text {font-size: 14px; line-height: 21px;}
+	.sen2 .work_area > .list {gap: 5px;}
+    .sen2 .work_area > .list > li {width: calc(50% - 2.5px);}
+
+    .sen2 .work_area > .list > li .box .text_area {height: 48px;}
+    .sen2 .work_area > .list > li .box:hover .text_area {height: 89px;}
+    .sen2 .work_area > .list > li .box .text_area .text_box .title {font-size: 18px; line-height: 27px;}
+    .sen2 .work_area > .list > li .box .text_area .btn_list li .btn {width: auto; padding: 0 10px; font-size: 12px; line-height: 26px;}
+    .sen2 .more_btn {margin: 15px 0 0;}
+    .sen2 .more_btn .btn  {font-size: 18px; line-height: 27px;}
+    /* // 메인*/
+    
+    
+    .title_wrap {padding: 25px 0;}
+    .title_wrap .title {font-size: 26px; line-height: 26px;}
+    .title_wrap .title .text {left: 5px; top: 5px; font-size: 26px; line-height: 26px;}
+    .title_wrap .link_box .link {font-size: 14px; line-height: 24px;}
+    
+    .info_list {padding: 15px 0;}
+    .info_list .list li .box .tit {width: 90px; font-size: 14px; line-height: 21px;}
+    .info_list .list li .box .txt {font-size: 14px; line-height: 21px;}
+    .info_list .list li .box .txt .tag_list .list li {margin: 0 4px 0 0; font-size: 14px; line-height: 24px;}
+    .info_list .list li .box .img_box {margin: 10px 0 0;}
+    .info_list .list li .box .txt .line {padding: 0 0 0 10px;}
+    
+    .about_top {padding: 20px 0;}
+    .about_top .container .title {font-size: 20px; line-height: 30px;}
+    .about_top .container .text {margin: 10px 0 0; font-size: 14px; line-height: 22px;}
+    
+    .info_list.bg {padding: 20px 0;}
+    .map_box {margin: 20px 0 0;}
+
+}
+
+@media screen and (max-width:480px){
+    /*헤더*/
+    .header .gnb_menu_box .right_box {display: none;}
+    /*// 헤더*/
+    
+    
+	/*메인*/
+    .sen2 .work_area > .list > li {display: block; width: 100%; margin: 5px 0 0;}
+    .sen2 .work_area > .list > li:nth-child(-n+2) {margin: 5px 0 0;}
+    .sen2 .work_area > .list > li:nth-child(2n) {margin: 5px 0 0;}
+    .sen2 .work_area > .list > li:nth-child(2) {margin: 5px 0 0;}
+    .sen2 .work_area > .list > li .box .img_box {padding: 0 0 62%;}
+    /* // 메인*/
+    
+    /*서브*/
+    .title_wrap {padding: 15px 0;}
+    .title_wrap .title {font-size: 18px; line-height: 27px;}
+    .title_wrap .title .text {font-size: 18px; line-height: 27px;}
+    
+    .info_list .list li .box .tit {width: 80px;}
+    /* // 서브*/
+
+}
